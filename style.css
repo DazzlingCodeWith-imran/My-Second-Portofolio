@@ -29,7 +29,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
-    overflow-x: hidden;
+
 }
 
 /* Header Styles */
@@ -103,7 +103,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100vh;
     padding: 10rem 5% 5rem;
+    overflow: hidden;
     gap: 5rem;
 }
 
@@ -324,6 +326,7 @@ body {
     left: 50%;
 }
 
+
 .timeline-dot {
     position: absolute;
     width: 2rem;
@@ -418,7 +421,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-#pragma once
+
 .service-card p {
     font-size: 1.4rem;
 }
